@@ -8,6 +8,8 @@
 
 ## Description 📋
 
+Updated portfolio, building off of each previous version through the course. Using React on current version. 
+
 ## Preview 📸
 
 ![Visual](./react-portfolio/src/assets/images/porti.gif)

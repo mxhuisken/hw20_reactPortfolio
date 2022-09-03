@@ -1,6 +1,7 @@
 import Nav from '../components/Nav';
 import AboutMe from '../components/AboutMe';
 import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 
 function Main () {
     return (
@@ -8,6 +9,7 @@ function Main () {
             <Nav />
             <AboutMe />
             <Projects />
+            <Contact />
         </div>
     );
 } 
