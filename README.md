@@ -12,10 +12,10 @@ Updated portfolio, building off of each previous version through the course. Usi
 
 ## Preview 📸
 
-![Visual](./react-portfolio/src/assets/images/porti.gif)
+![Visual](./src/assets/images/porti.gif)
 
 ## Links 💾
 
 **[GitHub Link ✨](https://github.com/mxhuisken/hw20_reactPortfolio)**
 
-**[Deployed Link ✨](https://mxhuisken.github.io/hw20_reactPortfolio)**
+**[Deployed Link ✨]()**
