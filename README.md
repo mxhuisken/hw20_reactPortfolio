@@ -10,8 +10,7 @@
 
 ## Preview 📸
 
-![Visual](./assets/images/porti.gif)
-
+![Visual](./react-portfolio/src/assets/images/porti.gif)
 
 ## Links 💾
 

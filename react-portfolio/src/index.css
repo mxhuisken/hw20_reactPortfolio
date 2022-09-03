@@ -1,13 +1,189 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Nanum+Gothic&family=Raleway:wght@200&family=Zen+Loop&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
+
+}
+
+
+
+/* ABOUT */
+
+.aboutSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 180px;
+}
+
+.aboutPContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.aboutPContainer p{
+    margin-top: 3px;
+    color: rgb(71, 105, 169);
+}
+
+/* BLOB */
+
+/* ABOUT IMGS */
+
+
+.aboutImg{
+    height: 400px;
+    width: 400px;
+}
+
+
+.aboutImg img{
+    height: 100%;
+    width: 100%;
+}
+
+/* PROJECTS */
+
+/* PROJECT IMGS */
+
+.proImgDiv{
+    height: 275px ;
+    width: 450px;
+}
+
+.proImgDiv img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* PROJECT LAYOUT */
+
+.projectSection{
+  color: rgb(71, 105, 169);
+
+}
+
+
+#proRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.paraLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    
+}
+
+#proLeft{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.paraRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.p2left{
+  display: flex;
+  justify-content: end;
+}
+
+#p1{
+  font-weight: bolder;
+}
+
+.projectBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+
+
+/* CONTACT */
+
+.contactHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: rgb(71, 105, 169);
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.contactContainer{
+    margin: auto;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(77, 124, 177);
+    padding: 5px;
+}
+
+.contactInfo textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(77, 124, 177);
+    padding: 5px;
+}
+
+#contactBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+#contactBtns button{
+    margin: 10px;
+}
+
+.contactLinks{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.contactLinks img {
+    width: 40px;
+    padding: 5px;
 }
