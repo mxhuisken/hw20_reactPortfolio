@@ -18,4 +18,4 @@ Updated portfolio, building off of each previous version through the course. Usi
 
 **[GitHub Link ✨](https://github.com/mxhuisken/hw20_reactPortfolio)**
 
-**[Deployed Link ✨](X)**
+**[Deployed Link ✨](https://mxhuisken.github.io/hw20_reactPortfolio)**
